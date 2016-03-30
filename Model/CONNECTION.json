@@ -1,0 +1,41 @@
+{
+    "meta_object_alias": "exface.Core.CONNECTION",
+    "rows": [
+        {
+            "CREATED_ON": "2016-03-30 01:03:16",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
+            "CREATED_BY_USER": "0x31000000000000000000000000000000",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
+            "UID": "0x11e5f6024d97ee7389840050568905af",
+            "APP": "0x31360000000000000000000000000000",
+            "LABEL": "Redmine Default",
+            "CONNECTOR": "Apps\\exface\\HttpDataConnector\\DataConnectors\\REST.php",
+            "CONFIG": "{\"URL\":\"\",\"proxy\":\"\",\"ignore_errors_on_post\":\"\"}",
+            "READONLY": "0",
+            "ALIAS": "REDMINE_DEFAULT",
+            "FILTER_CONTEXT": ""
+        }
+    ],
+    "totals_rows": [
+
+    ],
+    "totals_functions": [
+
+    ],
+    "filters": {
+        "operator": "AND",
+        "conditions": [
+            {
+                "expression": "APP",
+                "comparator": "=",
+                "value": "0x31360000000000000000000000000000",
+                "object_alias": "exface.Core.CONNECTION"
+            }
+        ],
+        "nested_groups": [
+
+        ]
+    },
+    "rows_on_page": null,
+    "row_offset": 0
+}

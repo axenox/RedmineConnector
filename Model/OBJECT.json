@@ -1,0 +1,146 @@
+{
+    "meta_object_alias": "exface.Core.OBJECT",
+    "rows": [
+        {
+            "CREATED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
+            "CREATED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
+            "UID": "0x31313800000000000000000000000000",
+            "DATA_SOURCE": "0x31360000000000000000000000000000",
+            "long_description": "",
+            "APP": "0x31360000000000000000000000000000",
+            "SHORT_DESCRIPTION": "Basic attributes of redmine objects",
+            "PARENT_OBJECT": "",
+            "DATA_ADDRESS_PROPS": "{}",
+            "DEFAULT_EDITOR_UXON": "{}",
+            "LABEL": "Redmine Base Object",
+            "ALIAS": "",
+            "DATA_ADDRESS": ""
+        },
+        {
+            "CREATED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
+            "CREATED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
+            "UID": "0x31313900000000000000000000000000",
+            "DATA_SOURCE": "0x31360000000000000000000000000000",
+            "long_description": "",
+            "APP": "0x31360000000000000000000000000000",
+            "SHORT_DESCRIPTION": "",
+            "PARENT_OBJECT": "",
+            "DATA_ADDRESS_PROPS": "{\"response_data_path\":\"issues\",\"response_total_count_path\":\"total_count\",\"request_limit_parameter\":\"limit\",\"request_offset_parameter\":\"offset\",\"uid_request_data_address\":\"issues\/[#ID#].json\",\"uid_response_data_path\":\"issue\",\"create_request_data_path\":\"issue\"}",
+            "DEFAULT_EDITOR_UXON": "{}",
+            "LABEL": "Ticket",
+            "ALIAS": "ISSUE",
+            "DATA_ADDRESS": "issues.json"
+        },
+        {
+            "CREATED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
+            "CREATED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
+            "UID": "0x31323000000000000000000000000000",
+            "DATA_SOURCE": "0x31360000000000000000000000000000",
+            "long_description": "",
+            "APP": "0x31360000000000000000000000000000",
+            "SHORT_DESCRIPTION": "",
+            "PARENT_OBJECT": "",
+            "DATA_ADDRESS_PROPS": "{\"response_data_path\":\"projects\",\"response_total_count_path\":\"total_count\",\"request_limit_parameter\":\"limit\",\"request_offset_parameter\":\"offset\"}",
+            "DEFAULT_EDITOR_UXON": "",
+            "LABEL": "Projekt",
+            "ALIAS": "PROJECT",
+            "DATA_ADDRESS": "projects.json"
+        },
+        {
+            "CREATED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
+            "CREATED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
+            "UID": "0x31323100000000000000000000000000",
+            "DATA_SOURCE": "0x31360000000000000000000000000000",
+            "long_description": "",
+            "APP": "0x31360000000000000000000000000000",
+            "SHORT_DESCRIPTION": "",
+            "PARENT_OBJECT": "",
+            "DATA_ADDRESS_PROPS": "{\"response_data_path\":\"issue_statuses\",\"response_total_count_path\":\"total_count\",\"request_limit_parameter\":\"limit\",\"request_offset_parameter\":\"offset\"}",
+            "DEFAULT_EDITOR_UXON": "",
+            "LABEL": "Ticket Status",
+            "ALIAS": "ISSUE_STATUS",
+            "DATA_ADDRESS": "issue_statuses.json"
+        },
+        {
+            "CREATED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
+            "CREATED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
+            "UID": "0x31323200000000000000000000000000",
+            "DATA_SOURCE": "0x31360000000000000000000000000000",
+            "long_description": "",
+            "APP": "0x31360000000000000000000000000000",
+            "SHORT_DESCRIPTION": "",
+            "PARENT_OBJECT": "",
+            "DATA_ADDRESS_PROPS": "{\"response_data_path\":\"users\",\"response_total_count_path\":\"total_count\",\"request_limit_parameter\":\"limit\",\"request_offset_parameter\":\"offset\"}",
+            "DEFAULT_EDITOR_UXON": "",
+            "LABEL": "User",
+            "ALIAS": "USER",
+            "DATA_ADDRESS": "users.json"
+        },
+        {
+            "CREATED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
+            "CREATED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
+            "UID": "0x31343600000000000000000000000000",
+            "DATA_SOURCE": "0x31360000000000000000000000000000",
+            "long_description": "",
+            "APP": "0x31360000000000000000000000000000",
+            "SHORT_DESCRIPTION": "",
+            "PARENT_OBJECT": "",
+            "DATA_ADDRESS_PROPS": "{\"response_data_path\":\"trackers\"}",
+            "DEFAULT_EDITOR_UXON": "{}",
+            "LABEL": "Tracker",
+            "ALIAS": "TRACKER",
+            "DATA_ADDRESS": "trackers.json"
+        },
+        {
+            "CREATED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
+            "CREATED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
+            "UID": "0x31353100000000000000000000000000",
+            "DATA_SOURCE": "0x31360000000000000000000000000000",
+            "long_description": "",
+            "APP": "0x31360000000000000000000000000000",
+            "SHORT_DESCRIPTION": "",
+            "PARENT_OBJECT": "",
+            "DATA_ADDRESS_PROPS": "{\"response_data_path\":\"upload\",\"response_total_count_path\":\"\",\"request_limit_parameter\":\"\",\"request_offset_parameter\":\"\",\"uid_request_data_address\":\"\",\"uid_response_data_path\":\"\",\"create_request_data_path\":\"\"}",
+            "DEFAULT_EDITOR_UXON": "{}",
+            "LABEL": "Upload",
+            "ALIAS": "UPLOAD",
+            "DATA_ADDRESS": "uploads.json"
+        }
+    ],
+    "totals_rows": [
+
+    ],
+    "totals_functions": [
+
+    ],
+    "filters": {
+        "operator": "AND",
+        "conditions": [
+            {
+                "expression": "APP",
+                "comparator": "=",
+                "value": "0x31360000000000000000000000000000",
+                "object_alias": "exface.Core.OBJECT"
+            }
+        ],
+        "nested_groups": [
+
+        ]
+    },
+    "rows_on_page": null,
+    "row_offset": 0
+}

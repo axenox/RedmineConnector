@@ -1,0 +1,41 @@
+{
+    "meta_object_alias": "exface.Core.DATASRC",
+    "rows": [
+        {
+            "CREATED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
+            "CREATED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
+            "UID": "0x31360000000000000000000000000000",
+            "APP": "0x31360000000000000000000000000000",
+            "CONNECTION": "0x31360000000000000000000000000000",
+            "BASE_OBJECT": "0x31313800000000000000000000000000",
+            "READONLY": "0",
+            "LABEL": "Redmine",
+            "ALIAS": "REDMINE",
+            "QUERYBUILDER": "Apps\\axenox\\RedmineConnector\\QueryBuilders\\JSONRedmine.php"
+        }
+    ],
+    "totals_rows": [
+
+    ],
+    "totals_functions": [
+
+    ],
+    "filters": {
+        "operator": "AND",
+        "conditions": [
+            {
+                "expression": "APP",
+                "comparator": "=",
+                "value": "0x31360000000000000000000000000000",
+                "object_alias": "exface.Core.DATASRC"
+            }
+        ],
+        "nested_groups": [
+
+        ]
+    },
+    "rows_on_page": null,
+    "row_offset": 0
+}
