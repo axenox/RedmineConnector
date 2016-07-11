@@ -1,8 +1,8 @@
-<?php namespace exface\Apps\axenox\RedmineConnector\QueryBuilders;
+<?php namespace axenox\RedmineConnector\QueryBuilders;
 
-use exface\Core\QueryBuilder\QueryPartFilter;
-use exface\Core\QueryBuilder\QueryPartSorter;
-use exface\Apps\exface\HttpDataConnector\QueryBuilders\JSON;
+use exface\Core\CommonLogic\QueryBuilder\QueryPartFilter;
+use exface\Core\CommonLogic\QueryBuilder\QueryPartSorter;
+use exface\HttpDataConnector\QueryBuilders\JSON;
 
 /**
  * This is a special REST query builder for Redmine (JSON API). It uses Redmines custom filtering!

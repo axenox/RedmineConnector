@@ -1,7 +1,18 @@
 {
-    "name": "axenox/RedmineConnector",
-    "version": "1.0",
-    "extra": {
-        "app_uid": "0x31360000000000000000000000000000"
-    }
+	"name" : "axenox/RedminConnector",
+	"description" : "Data connector for the Redmine API",
+	"type" : "library",
+	"license" : "GPL-3.0+",
+	"authors" : [{
+			"name" : "Andrej Kabachnik",
+			"email" : "kabachnik@gmail.com",
+			"role" : "Creator"
+		}
+	],
+	"support" : {
+		"issues" : "https://github.com/axenox/RedmineConnector/issues"
+	},
+	"require" : {
+		"exface/core" : ">=1.0"
+	}
 }
