@@ -6,7 +6,7 @@ use exface\HttpDataConnector\QueryBuilders\JSON;
 
 /**
  * This is a special REST query builder for Redmine (JSON API). It uses Redmines custom filtering!
- * @author aka
+ * @author Andrej Kabachnik
  *
  */
 class JSONRedmine extends JSON {
