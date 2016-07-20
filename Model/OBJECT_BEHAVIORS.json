@@ -1,5 +1,5 @@
 {
-    "object_alias": "exface.Core.APP_CONFIG",
+    "object_alias": "exface.Core.OBJECT_BEHAVIORS",
     "columns": [
         {
             "expression": "CREATED_ON",
@@ -37,46 +37,25 @@
             "attribute_alias": "UID"
         },
         {
-            "expression": "APP",
-            "name": "APP",
+            "expression": "BEHAVIOR",
+            "name": "BEHAVIOR",
+            "hidden": false,
+            "data_type": "String",
+            "attribute_alias": "BEHAVIOR"
+        },
+        {
+            "expression": "CONFIG_UXON",
+            "name": "CONFIG_UXON",
+            "hidden": false,
+            "data_type": "Json",
+            "attribute_alias": "CONFIG_UXON"
+        },
+        {
+            "expression": "OBJECT",
+            "name": "OBJECT",
             "hidden": false,
             "data_type": "Relation",
-            "attribute_alias": "APP"
-        },
-        {
-            "expression": "CODE",
-            "name": "CODE",
-            "hidden": false,
-            "data_type": "String",
-            "attribute_alias": "CODE"
-        },
-        {
-            "expression": "NAME",
-            "name": "NAME",
-            "hidden": false,
-            "data_type": "String",
-            "attribute_alias": "NAME"
-        },
-        {
-            "expression": "VALUE",
-            "name": "VALUE",
-            "hidden": false,
-            "data_type": "String",
-            "attribute_alias": "VALUE"
-        },
-        {
-            "expression": "DESCRIPTION",
-            "name": "DESCRIPTION",
-            "hidden": false,
-            "data_type": "Text",
-            "attribute_alias": "DESCRIPTION"
-        },
-        {
-            "expression": "LABEL",
-            "name": "LABEL",
-            "hidden": false,
-            "data_type": "String",
-            "attribute_alias": "LABEL"
+            "attribute_alias": "OBJECT"
         }
     ],
     "totals_rows": [],
@@ -84,10 +63,10 @@
         "operator": "AND",
         "conditions": [
             {
-                "expression": "APP",
+                "expression": "OBJECT__APP",
                 "comparator": "=",
                 "value": "0x31360000000000000000000000000000",
-                "object_alias": "exface.Core.APP_CONFIG"
+                "object_alias": "exface.Core.OBJECT_BEHAVIORS"
             }
         ],
         "nested_groups": []

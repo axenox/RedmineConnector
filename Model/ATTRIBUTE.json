@@ -1,11 +1,195 @@
 {
-    "meta_object_alias": "exface.Core.ATTRIBUTE",
+    "object_alias": "exface.Core.ATTRIBUTE",
+    "columns": [
+        {
+            "expression": "CREATED_ON",
+            "name": "CREATED_ON",
+            "hidden": false,
+            "data_type": "Timestamp",
+            "attribute_alias": "CREATED_ON"
+        },
+        {
+            "expression": "MODIFIED_ON",
+            "name": "MODIFIED_ON",
+            "hidden": false,
+            "data_type": "Timestamp",
+            "attribute_alias": "MODIFIED_ON"
+        },
+        {
+            "expression": "CREATED_BY_USER",
+            "name": "CREATED_BY_USER",
+            "hidden": false,
+            "data_type": "Relation",
+            "attribute_alias": "CREATED_BY_USER"
+        },
+        {
+            "expression": "MODIFIED_BY_USER",
+            "name": "MODIFIED_BY_USER",
+            "hidden": false,
+            "data_type": "Relation",
+            "attribute_alias": "MODIFIED_BY_USER"
+        },
+        {
+            "expression": "UID",
+            "name": "UID",
+            "hidden": false,
+            "data_type": "Number",
+            "attribute_alias": "UID"
+        },
+        {
+            "expression": "LABEL",
+            "name": "LABEL",
+            "hidden": false,
+            "data_type": "String",
+            "attribute_alias": "LABEL"
+        },
+        {
+            "expression": "ALIAS",
+            "name": "ALIAS",
+            "hidden": false,
+            "data_type": "String",
+            "attribute_alias": "ALIAS"
+        },
+        {
+            "expression": "DATATYPE",
+            "name": "DATATYPE",
+            "hidden": false,
+            "data_type": "Relation",
+            "attribute_alias": "DATATYPE"
+        },
+        {
+            "expression": "DATA_ADDRESS",
+            "name": "DATA_ADDRESS",
+            "hidden": false,
+            "data_type": "Text",
+            "attribute_alias": "DATA_ADDRESS"
+        },
+        {
+            "expression": "OBJECT",
+            "name": "OBJECT",
+            "hidden": false,
+            "data_type": "Relation",
+            "attribute_alias": "OBJECT"
+        },
+        {
+            "expression": "FORMATTER",
+            "name": "FORMATTER",
+            "hidden": false,
+            "data_type": "String",
+            "attribute_alias": "FORMATTER"
+        },
+        {
+            "expression": "DISPLAYORDER",
+            "name": "DISPLAYORDER",
+            "hidden": false,
+            "data_type": "Number",
+            "attribute_alias": "DISPLAYORDER"
+        },
+        {
+            "expression": "LABELFLAG",
+            "name": "LABELFLAG",
+            "hidden": false,
+            "data_type": "Boolean",
+            "attribute_alias": "LABELFLAG"
+        },
+        {
+            "expression": "UIDFLAG",
+            "name": "UIDFLAG",
+            "hidden": false,
+            "data_type": "Boolean",
+            "attribute_alias": "UIDFLAG"
+        },
+        {
+            "expression": "HIDDENFLAG",
+            "name": "HIDDENFLAG",
+            "hidden": false,
+            "data_type": "Boolean",
+            "attribute_alias": "HIDDENFLAG"
+        },
+        {
+            "expression": "EDITABLEFLAG",
+            "name": "EDITABLEFLAG",
+            "hidden": false,
+            "data_type": "Boolean",
+            "attribute_alias": "EDITABLEFLAG"
+        },
+        {
+            "expression": "REQUIREDFLAG",
+            "name": "REQUIREDFLAG",
+            "hidden": false,
+            "data_type": "Boolean",
+            "attribute_alias": "REQUIREDFLAG"
+        },
+        {
+            "expression": "RELATED_OBJ",
+            "name": "RELATED_OBJ",
+            "hidden": false,
+            "data_type": "Relation",
+            "attribute_alias": "RELATED_OBJ"
+        },
+        {
+            "expression": "SORTERPOS",
+            "name": "SORTERPOS",
+            "hidden": false,
+            "data_type": "Number",
+            "attribute_alias": "SORTERPOS"
+        },
+        {
+            "expression": "SORTERDIR",
+            "name": "SORTERDIR",
+            "hidden": false,
+            "data_type": "String",
+            "attribute_alias": "SORTERDIR"
+        },
+        {
+            "expression": "RELATED_OBJ_ATTR",
+            "name": "RELATED_OBJ_ATTR",
+            "hidden": false,
+            "data_type": "Relation",
+            "attribute_alias": "RELATED_OBJ_ATTR"
+        },
+        {
+            "expression": "SHORT_DESCRIPTION",
+            "name": "SHORT_DESCRIPTION",
+            "hidden": false,
+            "data_type": "Text",
+            "attribute_alias": "SHORT_DESCRIPTION"
+        },
+        {
+            "expression": "DATA_ADDRESS_PROPS",
+            "name": "DATA_ADDRESS_PROPS",
+            "hidden": false,
+            "data_type": "PropertySet",
+            "attribute_alias": "DATA_ADDRESS_PROPS"
+        },
+        {
+            "expression": "DEFAULT_VALUE",
+            "name": "DEFAULT_VALUE",
+            "hidden": false,
+            "data_type": "String",
+            "attribute_alias": "DEFAULT_VALUE"
+        },
+        {
+            "expression": "FIXED_VALUE",
+            "name": "FIXED_VALUE",
+            "hidden": false,
+            "data_type": "String",
+            "attribute_alias": "FIXED_VALUE"
+        },
+        {
+            "expression": "DEFAULT_EDITOR_UXON",
+            "name": "DEFAULT_EDITOR_UXON",
+            "hidden": false,
+            "data_type": "Json",
+            "attribute_alias": "DEFAULT_EDITOR_UXON"
+        }
+    ],
     "rows": [
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34373100000000000000000000000000",
             "LABEL": "ID",
             "ALIAS": "ID",
@@ -27,13 +211,13 @@
             "DATA_ADDRESS_PROPS": "{}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "DEFAULT_EDITOR_UXON": null
+            "DEFAULT_EDITOR_UXON": ""
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34373200000000000000000000000000",
             "LABEL": "Thema",
             "ALIAS": "SUBJECT",
@@ -59,9 +243,9 @@
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34373300000000000000000000000000",
             "LABEL": "Ticket",
             "ALIAS": "ID",
@@ -87,9 +271,9 @@
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34373400000000000000000000000000",
             "LABEL": "Status",
             "ALIAS": "STATUS_NAME",
@@ -115,9 +299,9 @@
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34373500000000000000000000000000",
             "LABEL": "Projekt",
             "ALIAS": "NAME",
@@ -139,13 +323,13 @@
             "DATA_ADDRESS_PROPS": "{}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "DEFAULT_EDITOR_UXON": null
+            "DEFAULT_EDITOR_UXON": ""
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34373600000000000000000000000000",
             "LABEL": "Projekt",
             "ALIAS": "PROJECT",
@@ -167,13 +351,13 @@
             "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"project_id\",\"create_query_parameter\":\"project_id\",\"update_query_parameter\":\"project_id\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "DEFAULT_EDITOR_UXON": null
+            "DEFAULT_EDITOR_UXON": ""
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34373800000000000000000000000000",
             "LABEL": "Name",
             "ALIAS": "NAME",
@@ -195,13 +379,13 @@
             "DATA_ADDRESS_PROPS": "{}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "DEFAULT_EDITOR_UXON": null
+            "DEFAULT_EDITOR_UXON": ""
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34373900000000000000000000000000",
             "LABEL": "Status",
             "ALIAS": "STATUS",
@@ -223,13 +407,13 @@
             "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"status_id\",\"sort_query_parameter\":\"status\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "DEFAULT_EDITOR_UXON": null
+            "DEFAULT_EDITOR_UXON": ""
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34383000000000000000000000000000",
             "LABEL": "Name",
             "ALIAS": "NAME",
@@ -251,13 +435,13 @@
             "DATA_ADDRESS_PROPS": "{}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "DEFAULT_EDITOR_UXON": null
+            "DEFAULT_EDITOR_UXON": ""
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34383100000000000000000000000000",
             "LABEL": "Author",
             "ALIAS": "AUTHOR_NAME",
@@ -279,13 +463,13 @@
             "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "DEFAULT_EDITOR_UXON": null
+            "DEFAULT_EDITOR_UXON": ""
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34383200000000000000000000000000",
             "LABEL": "Author",
             "ALIAS": "AUTHOR",
@@ -307,13 +491,13 @@
             "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"author_id\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "DEFAULT_EDITOR_UXON": null
+            "DEFAULT_EDITOR_UXON": ""
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34383300000000000000000000000000",
             "LABEL": "Assigned to",
             "ALIAS": "ASSIGNED_TO_NAME",
@@ -335,13 +519,13 @@
             "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "DEFAULT_EDITOR_UXON": null
+            "DEFAULT_EDITOR_UXON": ""
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34383400000000000000000000000000",
             "LABEL": "Assigned to",
             "ALIAS": "ASSIGNED_TO",
@@ -367,9 +551,9 @@
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34383500000000000000000000000000",
             "LABEL": "Prio",
             "ALIAS": "PRIORITY",
@@ -395,9 +579,9 @@
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34383600000000000000000000000000",
             "LABEL": "Prio",
             "ALIAS": "PRIORITY_NAME",
@@ -419,13 +603,13 @@
             "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"\",\"sort_query_parameter\":\"priority\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "DEFAULT_EDITOR_UXON": null
+            "DEFAULT_EDITOR_UXON": ""
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x36383000000000000000000000000000",
             "LABEL": "Beschreibung",
             "ALIAS": "DESCRIPTION",
@@ -447,13 +631,13 @@
             "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "DEFAULT_EDITOR_UXON": null
+            "DEFAULT_EDITOR_UXON": ""
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x36383100000000000000000000000000",
             "LABEL": "Name",
             "ALIAS": "NAME",
@@ -475,13 +659,13 @@
             "DATA_ADDRESS_PROPS": "{}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "DEFAULT_EDITOR_UXON": null
+            "DEFAULT_EDITOR_UXON": ""
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x36383200000000000000000000000000",
             "LABEL": "Tracker",
             "ALIAS": "TRACKER",
@@ -503,13 +687,13 @@
             "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"tracker\",\"create_query_parameter\":\"tracker_id\",\"update_query_parameter\":\"tracker_id\"}",
             "DEFAULT_VALUE": "13",
             "FIXED_VALUE": "",
-            "DEFAULT_EDITOR_UXON": null
+            "DEFAULT_EDITOR_UXON": ""
         },
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "0000-00-00 00:00:00",
+            "MODIFIED_ON": "2016-03-30 13:09:21",
             "CREATED_BY_USER": "",
-            "MODIFIED_BY_USER": "",
+            "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x36393300000000000000000000000000",
             "LABEL": "\u00dcbergeordnete Aufgabe",
             "ALIAS": "PARENT_ISSUE",
@@ -534,12 +718,7 @@
             "DEFAULT_EDITOR_UXON": "{}"
         }
     ],
-    "totals_rows": [
-
-    ],
-    "totals_functions": [
-
-    ],
+    "totals_rows": [],
     "filters": {
         "operator": "AND",
         "conditions": [
@@ -550,10 +729,14 @@
                 "object_alias": "exface.Core.ATTRIBUTE"
             }
         ],
-        "nested_groups": [
-
-        ]
+        "nested_groups": []
     },
     "rows_on_page": null,
-    "row_offset": 0
+    "row_offset": 0,
+    "sorters": [
+        {
+            "attribute_alias": "UID",
+            "direction": "ASC"
+        }
+    ]
 }
