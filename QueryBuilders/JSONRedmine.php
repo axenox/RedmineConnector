@@ -2,14 +2,14 @@
 
 use exface\Core\CommonLogic\QueryBuilder\QueryPartFilter;
 use exface\Core\CommonLogic\QueryBuilder\QueryPartSorter;
-use exface\HttpDataConnector\QueryBuilders\JSON;
+use exface\UrlDataConnector\QueryBuilders\JsonUrlBuilder;
 
 /**
  * This is a special REST query builder for Redmine (JSON API). It uses Redmines custom filtering!
  * @author Andrej Kabachnik
  *
  */
-class JSONRedmine extends JSON {
+class JSONRedmine extends JsonUrlBuilder {
 	
 	/**
 	 * 
