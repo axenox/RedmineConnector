@@ -37,11 +37,11 @@
             "attribute_alias": "UID"
         },
         {
-            "expression": "REPOSITORY_URL",
-            "name": "REPOSITORY_URL",
+            "expression": "PACKAGE",
+            "name": "PACKAGE",
             "hidden": false,
-            "data_type": "Url",
-            "attribute_alias": "REPOSITORY_URL"
+            "data_type": "Relation",
+            "attribute_alias": "PACKAGE"
         },
         {
             "expression": "ALIAS",
@@ -68,11 +68,11 @@
     "rows": [
         {
             "CREATED_ON": "0000-00-00 00:00:00",
-            "MODIFIED_ON": "2016-03-30 13:09:20",
+            "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x31360000000000000000000000000000",
-            "REPOSITORY_URL": "https:\/\/github.com\/axenox\/RedmineConnector",
+            "PACKAGE": "axenox\/RedmineConnector",
             "ALIAS": "axenox.RedmineConnector",
             "NAME": "axenox Redmine Connector",
             "LABEL": "axenox Redmine Connector"
@@ -94,6 +94,10 @@
     "rows_on_page": null,
     "row_offset": 0,
     "sorters": [
+        {
+            "attribute_alias": "CREATED_ON",
+            "direction": "ASC"
+        },
         {
             "attribute_alias": "UID",
             "direction": "ASC"
