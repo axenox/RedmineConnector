@@ -1,19 +1,28 @@
 {
-	"name" : "axenox/RedmineConnector",
-	"description" : "Data connector for the Redmine API",
-	"type" : "library",
-	"license" : "GPL-3.0+",
-	"authors" : [{
-			"name" : "Andrej Kabachnik",
-			"email" : "kabachnik@gmail.com",
-			"role" : "Creator"
-		}
-	],
-	"support" : {
-		"issues" : "https://github.com/axenox/RedmineConnector/issues"
-	},
-	"require" : {
-		"exface/core" : "~0.1",
-		"exface/UrlDataConnector" : "~0.1"
-	}
+    "name": "axenox/RedmineConnector",
+    "description": "Data connector for the Redmine API",
+    "type": "library",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Andrej Kabachnik",
+            "email": "kabachnik@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/axenox/RedmineConnector/issues"
+    },
+    "require": {
+        "exface/core": "~0.1",
+        "exface/UrlDataConnector": "~0.1"
+    },
+    "extra": {
+        "app": {
+            "app_uid": "0x31360000000000000000000000000000",
+            "app_alias": "axenox.RedmineConnector",
+            "model_md5": "208591e8244326560d244cc468c053f1",
+            "model_timestamp": "2016-07-25 18:56:49"
+        }
+    }
 }
