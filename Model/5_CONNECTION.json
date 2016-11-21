@@ -54,7 +54,7 @@
             "expression": "CONNECTOR",
             "name": "CONNECTOR",
             "hidden": false,
-            "data_type": "String",
+            "data_type": "Relation",
             "attribute_alias": "CONNECTOR"
         },
         {
@@ -95,7 +95,7 @@
             "UID": "0x11e5f6024d97ee7389840050568905af",
             "APP": "0x31360000000000000000000000000000",
             "LABEL": "Redmine Default",
-            "CONNECTOR": "exface\\UrlDataConnector\\DataConnectors\\HttpConnector.php",
+            "CONNECTOR": "exface\/UrlDataConnector\/DataConnectors\/HttpConnector.php",
             "CONFIG": "{\"URL\":\"\",\"proxy\":\"\",\"ignore_errors_on_post\":\"\"}",
             "READONLY": "0",
             "ALIAS": "REDMINE_DEFAULT",

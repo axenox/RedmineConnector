@@ -82,7 +82,7 @@
             "expression": "QUERYBUILDER",
             "name": "QUERYBUILDER",
             "hidden": false,
-            "data_type": "String",
+            "data_type": "Relation",
             "attribute_alias": "QUERYBUILDER"
         }
     ],
@@ -99,7 +99,7 @@
             "READONLY": "0",
             "LABEL": "Redmine",
             "ALIAS": "REDMINE",
-            "QUERYBUILDER": "Apps\\axenox\\RedmineConnector\\QueryBuilders\\JSONRedmine.php"
+            "QUERYBUILDER": "axenox\/RedmineConnector\/QueryBuilders\/JSONRedmine.php"
         }
     ],
     "totals_rows": [],
