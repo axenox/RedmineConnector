@@ -89,14 +89,14 @@
     "rows": [
         {
             "CREATED_ON": "2016-03-30 01:03:16",
-            "MODIFIED_ON": "2016-07-25 18:56:49",
+            "MODIFIED_ON": "2016-12-19 17:05:58",
             "CREATED_BY_USER": "0x31000000000000000000000000000000",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x11e5f6024d97ee7389840050568905af",
             "APP": "0x31360000000000000000000000000000",
             "LABEL": "Redmine Default",
-            "CONNECTOR": "exface\/UrlDataConnector\/DataConnectors\/HttpConnector.php",
-            "CONFIG": "{\"URL\":\"\",\"proxy\":\"\",\"ignore_errors_on_post\":\"\"}",
+            "CONNECTOR": "axenox\/RedmineConnector\/DataConnectors\/RedmineApiConnector.php",
+            "CONFIG": "{\"URL\":\"\",\"proxy\":\"\"}",
             "READONLY": "0",
             "ALIAS": "REDMINE_DEFAULT",
             "FILTER_CONTEXT": ""
