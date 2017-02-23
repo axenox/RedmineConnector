@@ -1,5 +1,5 @@
 {
-    "name": "axenox/RedmineConnector",
+    "name": "axenox/redmineconnector",
     "description": "Data connector for the Redmine API",
     "type": "library",
     "license": "GPL-3.0+",
