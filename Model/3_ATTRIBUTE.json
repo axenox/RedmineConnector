@@ -214,7 +214,7 @@
     ],
     "rows": [
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -246,7 +246,7 @@
             "DEFAULT_EDITOR_UXON": ""
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -278,7 +278,7 @@
             "DEFAULT_EDITOR_UXON": "{}"
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -310,7 +310,7 @@
             "DEFAULT_EDITOR_UXON": "{}"
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -342,7 +342,7 @@
             "DEFAULT_EDITOR_UXON": "{}"
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -374,7 +374,7 @@
             "DEFAULT_EDITOR_UXON": ""
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -406,7 +406,7 @@
             "DEFAULT_EDITOR_UXON": ""
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -438,7 +438,7 @@
             "DEFAULT_EDITOR_UXON": ""
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -470,7 +470,7 @@
             "DEFAULT_EDITOR_UXON": ""
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -502,7 +502,7 @@
             "DEFAULT_EDITOR_UXON": ""
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -534,7 +534,7 @@
             "DEFAULT_EDITOR_UXON": ""
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -566,7 +566,7 @@
             "DEFAULT_EDITOR_UXON": ""
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -598,7 +598,7 @@
             "DEFAULT_EDITOR_UXON": ""
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -630,7 +630,7 @@
             "DEFAULT_EDITOR_UXON": "{\r\n  \"widget_type\": \"InputSelect\",\r\n  \"selectable_options\": {\r\n  \"249\":\"Alexa, Arbeitsvorrat ohne Freigabe\",\r\n\"298\":\"Alexa, Entwicklersupport\",\r\n\"322\":\"Alexa, Releasemanager\",\r\n\"299\":\"Alexa, Weiterentwicklung\",\r\n\"281\":\"Arsentjeva, Darja\",\r\n\"74\":\"Bergmann, Yulia\",\r\n\"273\":\"Bologov, Alexej\",\r\n\"174\":\"Buildtool, sdrbld3\",\r\n\"306\":\"Grabowski, Miroslaw\",\r\n\"300\":\"Grismajer, Stefan\",\r\n\"30\":\"G\u00e4bler, Reinhard\",\r\n\"301\":\"Hanske, Matthias\",\r\n\"47\":\"Heidner, Stephan\",\r\n\"39\":\"Herrmann, Karl\",\r\n\"219\":\"Immer, Heiko\",\r\n\"40\":\"Kabachnik, Andrej\",\r\n\"22\":\"Kriegelstein, Thomas\",\r\n\"19\":\"Leibiger, Silke\",\r\n\"6\":\"Lohmann, Kerstin\",\r\n\"35\":\"Lukomski, Roman\",\r\n\"71\":\"Majunke, Marcel\",\r\n\"338\":\"Makarov, Oleg\",\r\n\"16\":\"Schipkowski, Jens\",\r\n\"27\":\"Schlee, Michael\",\r\n\"29\":\"Schulze, Mirko\",\r\n\"290\":\"Stehr, Lars\",\r\n\"304\":\"Stolz, Bianca\",\r\n\"225\":\"Support, Alexa\",\r\n\"3\":\"Tuschik, Michael\",\r\n\"320\":\"Wechler, Maik\",\r\n\"57\":\"Wolf, Christian\"}\r\n}"
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -662,7 +662,7 @@
             "DEFAULT_EDITOR_UXON": "{\"widget_type\": \"InputSelect\",\r\n      \"selectable_options\": {\r\n        \"3\": \"3\",\r\n        \"4\": 2,\r\n        \"5\": 1\r\n      }}"
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -694,7 +694,7 @@
             "DEFAULT_EDITOR_UXON": ""
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -726,7 +726,7 @@
             "DEFAULT_EDITOR_UXON": ""
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -758,7 +758,7 @@
             "DEFAULT_EDITOR_UXON": ""
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -790,7 +790,7 @@
             "DEFAULT_EDITOR_UXON": ""
         },
         {
-            "CREATED_ON": "2011-01-01 00:00:00",
+            "CREATED_ON": "0000-00-00 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
