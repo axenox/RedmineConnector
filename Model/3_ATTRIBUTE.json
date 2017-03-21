@@ -272,7 +272,7 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
             "DEFAULT_EDITOR_UXON": "{}"
@@ -304,7 +304,7 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
             "DEFAULT_EDITOR_UXON": "{}"
@@ -336,7 +336,7 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"\",\"sort_query_parameter\":\"status\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"\",\"sort_remote_url_param\":\"status\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
             "DEFAULT_EDITOR_UXON": "{}"
@@ -400,7 +400,7 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"project_id\",\"create_query_parameter\":\"project_id\",\"update_query_parameter\":\"project_id\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"project_id\",\"create_query_parameter\":\"project_id\",\"update_query_parameter\":\"project_id\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
             "DEFAULT_EDITOR_UXON": ""
@@ -464,7 +464,7 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"status_id\",\"sort_query_parameter\":\"status\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"status_id\",\"sort_remote_url_param\":\"status\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
             "DEFAULT_EDITOR_UXON": ""
@@ -528,7 +528,7 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
             "DEFAULT_EDITOR_UXON": ""
@@ -560,7 +560,7 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"author_id\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"author_id\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
             "DEFAULT_EDITOR_UXON": ""
@@ -592,7 +592,7 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
             "DEFAULT_EDITOR_UXON": ""
@@ -624,7 +624,7 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"assigned_to_id\",\"create_query_parameter\":\"assigned_to_id\",\"update_query_parameter\":\"assigned_to_id\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"assigned_to_id\",\"create_query_parameter\":\"assigned_to_id\",\"update_query_parameter\":\"assigned_to_id\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
             "DEFAULT_EDITOR_UXON": "{\r\n  \"widget_type\": \"InputSelect\",\r\n  \"selectable_options\": {\r\n  \"249\":\"Alexa, Arbeitsvorrat ohne Freigabe\",\r\n\"298\":\"Alexa, Entwicklersupport\",\r\n\"322\":\"Alexa, Releasemanager\",\r\n\"299\":\"Alexa, Weiterentwicklung\",\r\n\"281\":\"Arsentjeva, Darja\",\r\n\"74\":\"Bergmann, Yulia\",\r\n\"273\":\"Bologov, Alexej\",\r\n\"174\":\"Buildtool, sdrbld3\",\r\n\"306\":\"Grabowski, Miroslaw\",\r\n\"300\":\"Grismajer, Stefan\",\r\n\"30\":\"G\u00e4bler, Reinhard\",\r\n\"301\":\"Hanske, Matthias\",\r\n\"47\":\"Heidner, Stephan\",\r\n\"39\":\"Herrmann, Karl\",\r\n\"219\":\"Immer, Heiko\",\r\n\"40\":\"Kabachnik, Andrej\",\r\n\"22\":\"Kriegelstein, Thomas\",\r\n\"19\":\"Leibiger, Silke\",\r\n\"6\":\"Lohmann, Kerstin\",\r\n\"35\":\"Lukomski, Roman\",\r\n\"71\":\"Majunke, Marcel\",\r\n\"338\":\"Makarov, Oleg\",\r\n\"16\":\"Schipkowski, Jens\",\r\n\"27\":\"Schlee, Michael\",\r\n\"29\":\"Schulze, Mirko\",\r\n\"290\":\"Stehr, Lars\",\r\n\"304\":\"Stolz, Bianca\",\r\n\"225\":\"Support, Alexa\",\r\n\"3\":\"Tuschik, Michael\",\r\n\"320\":\"Wechler, Maik\",\r\n\"57\":\"Wolf, Christian\"}\r\n}"
@@ -656,7 +656,7 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"priority_id\",\"sort_query_parameter\":\"priority\",\"create_query_parameter\":\"priority_id\",\"update_query_parameter\":\"priority_id\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"priority_id\",\"sort_remote_url_param\":\"priority\",\"create_query_parameter\":\"priority_id\",\"update_query_parameter\":\"priority_id\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
             "DEFAULT_EDITOR_UXON": "{\"widget_type\": \"InputSelect\",\r\n      \"selectable_options\": {\r\n        \"3\": \"3\",\r\n        \"4\": 2,\r\n        \"5\": 1\r\n      }}"
@@ -688,7 +688,7 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"\",\"sort_query_parameter\":\"priority\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"\",\"sort_remote_url_param\":\"priority\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
             "DEFAULT_EDITOR_UXON": ""
@@ -720,7 +720,7 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
             "DEFAULT_EDITOR_UXON": ""
@@ -784,7 +784,7 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_query_parameter\":\"tracker\",\"create_query_parameter\":\"tracker_id\",\"update_query_parameter\":\"tracker_id\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"tracker\",\"create_query_parameter\":\"tracker_id\",\"update_query_parameter\":\"tracker_id\"}",
             "DEFAULT_VALUE": "13",
             "FIXED_VALUE": "",
             "DEFAULT_EDITOR_UXON": ""
