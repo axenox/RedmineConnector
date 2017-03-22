@@ -109,7 +109,7 @@
     ],
     "rows": [
         {
-            "CREATED_ON": "0000-00-00 00:00:00",
+            "CREATED_ON": "2007-01-01 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -126,7 +126,7 @@
             "DATA_ADDRESS": ""
         },
         {
-            "CREATED_ON": "0000-00-00 00:00:00",
+            "CREATED_ON": "2007-01-01 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -143,7 +143,7 @@
             "DATA_ADDRESS": "issues.json"
         },
         {
-            "CREATED_ON": "0000-00-00 00:00:00",
+            "CREATED_ON": "2007-01-01 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -160,7 +160,7 @@
             "DATA_ADDRESS": "projects.json"
         },
         {
-            "CREATED_ON": "0000-00-00 00:00:00",
+            "CREATED_ON": "2007-01-01 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -177,7 +177,7 @@
             "DATA_ADDRESS": "issue_statuses.json"
         },
         {
-            "CREATED_ON": "0000-00-00 00:00:00",
+            "CREATED_ON": "2007-01-01 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -194,7 +194,7 @@
             "DATA_ADDRESS": "users.json"
         },
         {
-            "CREATED_ON": "0000-00-00 00:00:00",
+            "CREATED_ON": "2007-01-01 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
@@ -211,7 +211,7 @@
             "DATA_ADDRESS": "trackers.json"
         },
         {
-            "CREATED_ON": "0000-00-00 00:00:00",
+            "CREATED_ON": "2007-01-01 00:00:00",
             "MODIFIED_ON": "2016-07-25 18:56:49",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
