@@ -51,6 +51,13 @@
             "attribute_alias": "DEFAULT_CONNECTION"
         },
         {
+            "expression": "DEFAULT_QUERY_BUILDER",
+            "name": "DEFAULT_QUERY_BUILDER",
+            "hidden": false,
+            "data_type": "Relation",
+            "attribute_alias": "DEFAULT_QUERY_BUILDER"
+        },
+        {
             "expression": "BASE_OBJECT",
             "name": "BASE_OBJECT",
             "hidden": false,
@@ -77,13 +84,6 @@
             "hidden": false,
             "data_type": "String",
             "attribute_alias": "ALIAS"
-        },
-        {
-            "expression": "QUERYBUILDER",
-            "name": "QUERYBUILDER",
-            "hidden": false,
-            "data_type": "Relation",
-            "attribute_alias": "QUERYBUILDER"
         }
     ],
     "rows": [
@@ -95,11 +95,11 @@
             "UID": "0x31360000000000000000000000000000",
             "APP": "0x31360000000000000000000000000000",
             "DEFAULT_CONNECTION": "0x11e5f6024d97ee7389840050568905af",
+            "DEFAULT_QUERY_BUILDER": "axenox\/RedmineConnector\/QueryBuilders\/JSONRedmine.php",
             "BASE_OBJECT": "0x31313800000000000000000000000000",
             "READONLY": "0",
             "LABEL": "Redmine",
-            "ALIAS": "REDMINE",
-            "QUERYBUILDER": "axenox\/RedmineConnector\/QueryBuilders\/JSONRedmine.php"
+            "ALIAS": "REDMINE"
         }
     ],
     "totals_rows": [],
