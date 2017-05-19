@@ -19,8 +19,7 @@ class CreateIssue extends CreateData {
 		parent::perform();
 		$this->set_undoable(false);
 		$new_ticket_id = $this->get_result_data_sheet()->get_uid_column()->get_cell_value(0);
-		$this->set_result_message('New ticket <a target="_blank" href="' . $this->get_input_data_sheet()->get_meta_object()->get_data_connection()->get_url() . "issues/" . $new_ticket_id . '">#' . $new_ticket_id . '</a> created!');
-		
+		$this->set_result_message($this->translate('RESULT', array('%url%' => $this->get_input_data_sheet()->get_meta_object()->get_data_connection()->get_url(), '%issue_id%'=> $new_ticket_id)));
 	}
 	
 }
