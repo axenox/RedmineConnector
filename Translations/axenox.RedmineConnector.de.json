@@ -1,0 +1,3 @@
+{
+	"ACTION.CREATEISSUE.RESULT": "Neues Ticket <a target=\"_blank\" href=\"%url%issues/%issue_id%\">#%issue_id%</a> angelegt!"
+}

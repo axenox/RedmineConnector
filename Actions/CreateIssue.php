@@ -4,6 +4,12 @@ namespace axenox\RedmineConnector\Actions;
 use exface\Core\Actions\CreateData;
 use exface\Core\Exceptions\Actions\ActionInputInvalidObjectError;
 
+/**
+ * Creates a new issue showing the issue id with a link to it in the result message.
+ * 
+ * @author Andrej Kabachnik
+ *
+ */
 class CreateIssue extends CreateData {
 	
 	protected function perform(){
