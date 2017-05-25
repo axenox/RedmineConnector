@@ -1,5 +1,4 @@
 <?php
-
 namespace axenox\RedmineConnector\DataConnectors;
 
 use exface\UrlDataConnector\DataConnectors\HttpConnector;

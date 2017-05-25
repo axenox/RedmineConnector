@@ -1,5 +1,4 @@
 <?php
-
 namespace axenox\RedmineConnector\QueryBuilders;
 
 use exface\Core\CommonLogic\QueryBuilder\QueryPartFilter;
@@ -9,7 +8,7 @@ use exface\UrlDataConnector\QueryBuilders\JsonUrlBuilder;
 /**
  * This is a special REST query builder for Redmine (JSON API).
  * It uses Redmines custom filtering!
- * 
+ *
  * @author Andrej Kabachnik
  *        
  */
