@@ -6,20 +6,31 @@ use exface\Core\Exceptions\Actions\ActionInputInvalidObjectError;
 
 /**
  * Creates a new issue showing the issue id with a link to it in the result message.
- * 
- * @author Andrej Kabachnik
  *
+ * @author Andrej Kabachnik
+ *        
  */
-class CreateIssue extends CreateData {
-	
-	protected function perform(){
-		if (!$this->get_input_data_sheet()->get_meta_object()->is('axenox.RedmineConnector.ISSUE')){
-			throw new ActionInputInvalidObjectError($this, $this->get_alias_with_namespace() . ' can only be called on axenox.RedmineConnector.ISSUE objects!');
-		}
-		parent::perform();
-		$this->set_undoable(false);
-		$new_ticket_id = $this->get_result_data_sheet()->get_uid_column()->get_cell_value(0);
-		$this->set_result_message($this->translate('RESULT', array('%url%' => $this->get_input_data_sheet()->get_meta_object()->get_data_connection()->get_url(), '%issue_id%'=> $new_ticket_id)));
-	}
-	
+class CreateIssue extends CreateData
+{
+
+    protected function perform()
+    {
+        if (! $this->getInputDataSheet()
+            ->getMetaObject()
+            ->is('axenox.RedmineConnector.ISSUE')) {
+            throw new ActionInputInvalidObjectError($this, $this->getAliasWithNamespace() . ' can only be called on axenox.RedmineConnector.ISSUE objects!');
+        }
+        parent::perform();
+        $this->setUndoable(false);
+        $new_ticket_id = $this->getResultDataSheet()
+            ->getUidColumn()
+            ->getCellValue(0);
+        $this->setResultMessage($this->translate('RESULT', array(
+            '%url%' => $this->getInputDataSheet()
+                ->getMetaObject()
+                ->getDataConnection()
+                ->getUrl(),
+            '%issue_id%' => $new_ticket_id
+        )));
+    }
 }

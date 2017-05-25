@@ -1,6 +1,8 @@
-<?php namespace axenox\RedmineConnector;
+<?php
 
-class RedmineConnectorApp extends \exface\Core\CommonLogic\AbstractApp {
-	
+namespace axenox\RedmineConnector;
+
+class RedmineConnectorApp extends \exface\Core\CommonLogic\AbstractApp
+{
 }
 ?>
