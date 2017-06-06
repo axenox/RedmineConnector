@@ -27,7 +27,7 @@ class JSONRedmine extends JsonUrlBuilder
         $filter_name = '';
         
         // Determine filter name (URL parameter name)
-        if ($param = $qpart->getDataAddressProperty('filter_query_parameter')) {
+        if ($param = $qpart->getDataAddressProperty('filter_remote_url_param')) {
             $filter_name = $param;
         } else {
             $filter_name = $qpart->getDataAddress();
@@ -72,7 +72,7 @@ class JSONRedmine extends JsonUrlBuilder
 
     protected function buildUrlSorter(QueryPartSorter $qpart)
     {
-        return ($qpart->getDataAddressProperty('sort_query_parameter') ? $qpart->getDataAddressProperty('sort_query_parameter') : $qpart->getDataAddress()) . ($qpart->getOrder() == 'desc' ? ':desc' : '');
+        return ($qpart->getDataAddressProperty('sort_remote_url_param') ? $qpart->getDataAddressProperty('sort_remote_url_param') : $qpart->getDataAddress()) . ($qpart->getOrder() == 'desc' ? ':desc' : '');
     }
 }
 ?>
