@@ -49,7 +49,7 @@ class JSONRedmine extends JsonUrlBuilder
                 case EXF_COMPARATOR_IN:
                     $op = '=';
                     if (! is_array($qpart->getCompareValue())) {
-                        $val = explode(EXF_LIST_SEPARATORXF_LIST_SEPARATOR, $qpart->getCompareValue());
+                        $val = explode($qpart->getValueListDelimiter(), $qpart->getCompareValue());
                     }
                     break;
                 default:
