@@ -23,5 +23,13 @@
             "model_md5": "3b76d62ef053219dc3efbd302fe24de5",
             "model_timestamp": "2017-06-06 16:02:17"
         }
+    },
+    "autoload": {
+        "psr-4": { "axenox\\RedmineConnector\\": "" },
+        "exclude-from-classmap": [
+            "/Config/",
+            "/Translations/",
+            "/Model/"
+        ]
     }
 }
