@@ -157,7 +157,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "ID",
             "ALIAS": "ID",
             "DATATYPE": "0x31000000000000000000000000000000",
@@ -178,7 +178,7 @@
             "DATA_ADDRESS_PROPS": "",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
@@ -194,7 +194,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "Thema",
             "ALIAS": "SUBJECT",
             "DATATYPE": "0x30000000000000000000000000000000",
@@ -215,11 +215,11 @@
             "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
-            "MODIFIED_ON": "2016-07-25 18:56:49",
+            "MODIFIED_ON": "2017-12-05 11:30:45",
             "CREATED_BY_USER": "",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x34373300000000000000000000000000",
@@ -231,10 +231,10 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "Ticket",
             "ALIAS": "ID",
-            "DATATYPE": "0x31000000000000000000000000000000",
+            "DATATYPE": "0x11e7be1769277c6a9c0f0205857feb80",
             "DATA_ADDRESS": "id",
             "OBJECT": "0x31313900000000000000000000000000",
             "FORMATTER": "",
@@ -252,7 +252,7 @@
             "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
@@ -268,7 +268,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "Status",
             "ALIAS": "STATUS_NAME",
             "DATATYPE": "0x30000000000000000000000000000000",
@@ -289,7 +289,7 @@
             "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"\",\"sort_remote_url_param\":\"status\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
@@ -305,7 +305,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "Projekt",
             "ALIAS": "NAME",
             "DATATYPE": "0x30000000000000000000000000000000",
@@ -326,7 +326,7 @@
             "DATA_ADDRESS_PROPS": "",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
@@ -342,7 +342,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "Projekt",
             "ALIAS": "PROJECT",
             "DATATYPE": "0x11e7b0277435425e98350205857feb80",
@@ -360,10 +360,10 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"project_id\",\"create_query_parameter\":\"project_id\",\"update_query_parameter\":\"project_id\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"project_id\",\"create_data_address\":\"project_id\",\"update_data_address\":\"project_id\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
@@ -379,7 +379,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "Name",
             "ALIAS": "NAME",
             "DATATYPE": "0x30000000000000000000000000000000",
@@ -400,7 +400,7 @@
             "DATA_ADDRESS_PROPS": "",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
@@ -416,7 +416,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "Status",
             "ALIAS": "STATUS",
             "DATATYPE": "0x11e7b0277435425e98350205857feb80",
@@ -437,7 +437,7 @@
             "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"status_id\",\"sort_remote_url_param\":\"status\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
@@ -453,7 +453,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "Name",
             "ALIAS": "NAME",
             "DATATYPE": "0x30000000000000000000000000000000",
@@ -474,7 +474,7 @@
             "DATA_ADDRESS_PROPS": "",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
@@ -490,7 +490,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "Author",
             "ALIAS": "AUTHOR_NAME",
             "DATATYPE": "0x30000000000000000000000000000000",
@@ -511,7 +511,7 @@
             "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
@@ -527,7 +527,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "Author",
             "ALIAS": "AUTHOR",
             "DATATYPE": "0x11e7b0277435425e98350205857feb80",
@@ -548,7 +548,7 @@
             "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"author_id\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
@@ -564,7 +564,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "Assigned to",
             "ALIAS": "ASSIGNED_TO_NAME",
             "DATATYPE": "0x30000000000000000000000000000000",
@@ -585,7 +585,7 @@
             "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
@@ -619,7 +619,7 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"assigned_to_id\",\"create_query_parameter\":\"assigned_to_id\",\"update_query_parameter\":\"assigned_to_id\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"assigned_to_id\",\"create_data_address\":\"assigned_to_id\",\"update_data_address\":\"assigned_to_id\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
             "CUSTOM_DATA_TYPE": ""
@@ -656,7 +656,7 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"priority_id\",\"sort_remote_url_param\":\"priority\",\"create_query_parameter\":\"priority_id\",\"update_query_parameter\":\"priority_id\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"priority_id\",\"sort_remote_url_param\":\"priority\",\"create_data_address\":\"priority_id\",\"update_data_address\":\"priority_id\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
             "CUSTOM_DATA_TYPE": ""
@@ -675,7 +675,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "Prio",
             "ALIAS": "PRIORITY_NAME",
             "DATATYPE": "0x30000000000000000000000000000000",
@@ -696,7 +696,7 @@
             "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"\",\"sort_remote_url_param\":\"priority\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
@@ -712,7 +712,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "Beschreibung",
             "ALIAS": "DESCRIPTION",
             "DATATYPE": "0x31310000000000000000000000000000",
@@ -733,7 +733,7 @@
             "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"\"}",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
@@ -749,7 +749,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "Name",
             "ALIAS": "NAME",
             "DATATYPE": "0x30000000000000000000000000000000",
@@ -770,7 +770,7 @@
             "DATA_ADDRESS_PROPS": "",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
@@ -786,7 +786,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "Tracker",
             "ALIAS": "TRACKER",
             "DATATYPE": "0x11e7b0277435425e98350205857feb80",
@@ -804,10 +804,10 @@
             "SORTERDIR": "",
             "RELATED_OBJ_ATTR": "",
             "SHORT_DESCRIPTION": "",
-            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"tracker_id\",\"create_query_parameter\":\"tracker_id\",\"update_query_parameter\":\"tracker_id\"}",
+            "DATA_ADDRESS_PROPS": "{\"filter_remote_url_param\":\"tracker_id\",\"create_data_address\":\"tracker_id\",\"update_data_address\":\"tracker_id\"}",
             "DEFAULT_VALUE": "13",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         },
         {
             "CREATED_ON": "2007-01-01 00:00:00",
@@ -823,7 +823,7 @@
             "READABLEFLAG": "1",
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
-            "DEFAULT_EDITOR_UXON": null,
+            "DEFAULT_EDITOR_UXON": "",
             "LABEL": "\u00dcbergeordnete Aufgabe",
             "ALIAS": "PARENT_ISSUE",
             "DATATYPE": "0x11e7b0277435425e98350205857feb80",
@@ -844,7 +844,7 @@
             "DATA_ADDRESS_PROPS": "",
             "DEFAULT_VALUE": "",
             "FIXED_VALUE": "",
-            "CUSTOM_DATA_TYPE": null
+            "CUSTOM_DATA_TYPE": ""
         }
     ],
     "totals_rows": [],

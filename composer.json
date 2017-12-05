@@ -20,8 +20,8 @@
         "app": {
             "app_uid": "0x31360000000000000000000000000000",
             "app_alias": "axenox.RedmineConnector",
-            "model_md5": "c6be420712d7c06affb4db2426eaf5c8",
-            "model_timestamp": "2017-06-06 16:02:17"
+            "model_md5": "199d3bda8eb12f742e8d7e6c8af0e59c",
+            "model_timestamp": "2017-12-05 11:30:45"
         }
     },
     "autoload": {
