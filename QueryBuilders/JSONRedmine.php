@@ -4,6 +4,7 @@ namespace axenox\RedmineConnector\QueryBuilders;
 use exface\Core\CommonLogic\QueryBuilder\QueryPartFilter;
 use exface\Core\CommonLogic\QueryBuilder\QueryPartSorter;
 use exface\UrlDataConnector\QueryBuilders\JsonUrlBuilder;
+use exface\Core\DataTypes\SortingDirectionsDataType;
 
 /**
  * This is a special REST query builder for Redmine (JSON API).
@@ -70,9 +71,9 @@ class JSONRedmine extends JsonUrlBuilder
         return $filter;
     }
 
-    protected function buildUrlSorter(QueryPartSorter $qpart)
+    protected function buildUrlParamSorter(QueryPartSorter $qpart)
     {
-        return ($qpart->getDataAddressProperty('sort_remote_url_param') ? $qpart->getDataAddressProperty('sort_remote_url_param') : $qpart->getDataAddress()) . ($qpart->getOrder() == 'desc' ? ':desc' : '');
+        return ($qpart->getDataAddressProperty('sort_remote_url_param') ? $qpart->getDataAddressProperty('sort_remote_url_param') : $qpart->getDataAddress()) . ($qpart->getOrder() == SortingDirectionsDataType::DESC ? ':desc' : ':asc');
     }
 }
 ?>
