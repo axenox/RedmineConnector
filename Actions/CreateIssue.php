@@ -3,6 +3,9 @@ namespace axenox\RedmineConnector\Actions;
 
 use exface\Core\Actions\CreateData;
 use exface\Core\Exceptions\Actions\ActionInputInvalidObjectError;
+use exface\Core\Interfaces\Tasks\TaskInterface;
+use exface\Core\Interfaces\DataSources\DataTransactionInterface;
+use exface\Core\Interfaces\Tasks\TaskResultInterface;
 
 /**
  * Creates a new issue showing the issue id with a link to it in the result message.
@@ -13,17 +16,22 @@ use exface\Core\Exceptions\Actions\ActionInputInvalidObjectError;
 class CreateIssue extends CreateData
 {
 
-    protected function perform()
+    protected function perform(TaskInterface $task, DataTransactionInterface $transaction) : TaskResultInterface
     {
-        if (! $this->getInputDataSheet()->getMetaObject()->is('axenox.RedmineConnector.ISSUE')) {
+        $input = $this->getInputDataSheet($task);
+        
+        if (! $input->getMetaObject()->is('axenox.RedmineConnector.ISSUE')) {
             throw new ActionInputInvalidObjectError($this, $this->getAliasWithNamespace() . ' can only be called on axenox.RedmineConnector.ISSUE objects!');
         }
-        parent::perform();
-        $this->setUndoable(false);
+        $result = parent::perform($task, $transaction);
+        $result->setUndoable(false);
+        
         $new_ticket_id = $this->getResultDataSheet()->getUidColumn()->getCellValue(0);
-        $this->setResultMessage($this->translate('RESULT', array(
-            '%url%' => $this->getInputDataSheet()->getMetaObject()->getDataConnection()->getUrl(),
+        $result->setMessage($this->translate('RESULT', array(
+            '%url%' => $input->getMetaObject()->getDataConnection()->getUrl(),
             '%issue_id%' => $new_ticket_id
         )));
+        
+        return $result;
     }
 }
