@@ -33,7 +33,7 @@ class JSONRedmine extends JsonUrlBuilder
         } else {
             $filter_name = $qpart->getDataAddress();
         }
-        $filter = 'f[]=' . $filter_name;
+        $filter = '&f[]=' . $filter_name;
         
         // Add the operator
         $filter .= '&op[' . $filter_name . ']=';
