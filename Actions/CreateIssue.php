@@ -15,14 +15,17 @@ use exface\Core\Interfaces\Tasks\ResultInterface;
  */
 class CreateIssue extends CreateData
 {
-
+    protected function init()
+    {
+        parent::init();
+        
+        $this->setInputObjectAlias('axenox.RedmineConnector.ISSUE');
+    }
+    
     protected function perform(TaskInterface $task, DataTransactionInterface $transaction) : ResultInterface
     {
         $input = $this->getInputDataSheet($task);
         
-        if (! $input->getMetaObject()->is('axenox.RedmineConnector.ISSUE')) {
-            throw new ActionInputInvalidObjectError($this, $this->getAliasWithNamespace() . ' can only be called on axenox.RedmineConnector.ISSUE objects!');
-        }
         $result = parent::perform($task, $transaction);
         $result->setUndoable(false);
         
