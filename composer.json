@@ -1,37 +1,36 @@
 {
-    "name": "axenox/RedmineConnector",
-    "description": "Data connector for the Redmine API",
-    "type": "library",
-    "license": "GPL-3.0+",
-    "authors": [
-        {
-            "name": "Andrej Kabachnik",
-            "email": "kabachnik@gmail.com",
-            "role": "Creator"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/axenox/RedmineConnector/issues"
-    },
-    "require": {
-        "exface/core": "~0.1"
-    },
-    "extra": {
-        "app": {
-            "app_uid": "0x31360000000000000000000000000000",
-            "app_alias": "axenox.RedmineConnector",
-            "model_md5": "856ecb364d82705bb61123813cb6cbfe",
-            "model_timestamp": "2018-10-12 14:41:06"
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "axenox\\RedmineConnector\\": ""
-        },
-        "exclude-from-classmap": [
-            "/Config/",
-            "/Translations/",
-            "/Model/"
-        ]
-    }
+	"name" : "axenox/RedmineConnector",
+	"description" : "Data connector for the Redmine API",
+	"type" : "library",
+	"license" : "GPL-3.0+",
+	"authors" : [{
+			"name" : "Andrej Kabachnik",
+			"email" : "kabachnik@gmail.com",
+			"role" : "Creator"
+		}
+	],
+	"support" : {
+		"issues" : "https://github.com/axenox/RedmineConnector/issues"
+	},
+	"require" : {
+		"exface/core" : "~0.1||^1.0"
+	},
+	"extra" : {
+		"app" : {
+			"app_uid" : "0x31360000000000000000000000000000",
+			"app_alias" : "axenox.RedmineConnector",
+			"model_md5" : "856ecb364d82705bb61123813cb6cbfe",
+			"model_timestamp" : "2018-10-12 14:41:06"
+		}
+	},
+	"autoload" : {
+		"psr-4" : {
+			"axenox\\RedmineConnector\\" : ""
+		},
+		"exclude-from-classmap" : [
+			"/Config/",
+			"/Translations/",
+			"/Model/"
+		]
+	}
 }
