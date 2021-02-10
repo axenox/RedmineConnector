@@ -5,6 +5,7 @@ use exface\Core\CommonLogic\QueryBuilder\QueryPartFilter;
 use exface\Core\CommonLogic\QueryBuilder\QueryPartSorter;
 use exface\UrlDataConnector\QueryBuilders\JsonUrlBuilder;
 use exface\Core\DataTypes\SortingDirectionsDataType;
+use exface\UrlDataConnector\QueryBuilders\AbstractUrlBuilder;
 
 /**
  * This is a special REST query builder for Redmine (JSON API).
@@ -16,19 +17,18 @@ use exface\Core\DataTypes\SortingDirectionsDataType;
 class JSONRedmine extends JsonUrlBuilder
 {
 
-    /**
-     *
-     * {@inheritdoc}
-     *
-     * @see \exface\DataSources\QueryBuilders\REST_AbstractRest::buildUrlFilter()
-     */
+   /**
+    * 
+    * {@inheritDoc}
+    * @see \exface\UrlDataConnector\QueryBuilders\AbstractUrlBuilder::buildUrlFilter($qpart)
+    */
     protected function buildUrlFilter(QueryPartFilter $qpart)
     {
         $filter = '';
         $filter_name = '';
         
         // Determine filter name (URL parameter name)
-        if ($param = $qpart->getDataAddressProperty('filter_remote_url_param')) {
+        if ($param = $qpart->getDataAddressProperty(AbstractUrlBuilder::DAP_FILTER_REMOTE_URL_PARAM)) {
             $filter_name = $param;
         } else {
             $filter_name = $qpart->getDataAddress();
@@ -71,9 +71,14 @@ class JSONRedmine extends JsonUrlBuilder
         return $filter;
     }
 
+    /**
+     * 
+     * {@inheritDoc}
+     * @see \exface\UrlDataConnector\QueryBuilders\AbstractUrlBuilder::buildUrlParamSorter($qpart)
+     */
     protected function buildUrlParamSorter(QueryPartSorter $qpart)
     {
-        return ($qpart->getDataAddressProperty('sort_remote_url_param') ? $qpart->getDataAddressProperty('sort_remote_url_param') : $qpart->getDataAddress()) . ($qpart->getOrder() == SortingDirectionsDataType::DESC ? ':desc' : ':asc');
+        return ($qpart->getDataAddressProperty(AbstractUrlBuilder::DAP_SORT_REMOTE_URL_PARAM) ? $qpart->getDataAddressProperty(AbstractUrlBuilder::DAP_SORT_REMOTE_URL_PARAM) : $qpart->getDataAddress()) . ($qpart->getOrder() == SortingDirectionsDataType::DESC ? ':desc' : ':asc');
     }
 }
 ?>
